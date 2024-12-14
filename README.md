@@ -56,6 +56,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    
 ## Book Routes
    - **POST /books/create:** Add a new book (Authors only).
+   - ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/64904d35cd1fb65bf8f43aff06bded5d56a15708/Screenshot%202024-12-14%20181935.png)
    - **GET /books:** Retrieve a list of all books or search by title, genre, or author.
    - ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/f29b5686cecbd6c4ac9dc82ba74d41d16d8df1e3/Screenshot%202024-12-14%20200250.png)
    - **GET /books/author/:id:** Retrieve books by a specific author.
@@ -64,7 +65,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    - **POST /reader/books/borrow:** Borrow a book (Readers only).
    - **POST /reader/books/return:** Return a borrowed book (Readers only).
    - **GET /reader/books/:id:** View all borrowed books by a Reader.
-   -  ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/64904d35cd1fb65bf8f43aff06bded5d56a15708/Screenshot%202024-12-14%20181935.png)
+   -  
    
 # Example Usage
  ## Author Use Case:
