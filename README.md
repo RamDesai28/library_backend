@@ -5,17 +5,17 @@
 ## Project Overview
 The Library Management System Backend is built using Node.js and Express.js with MongoDB as the database. The system allows:
 
- -User Management: Readers and Authors can sign up, log in, update their profiles, and manage their account details.
- -Book Management: Authors can add, update, and remove books. Readers can view, search, and borrow books.
- -Borrowing & Returning: Readers can borrow up to 5 books and return them, updating the book stock accordingly.
- -Session Management: Implemented "Remember Me" functionality with JWT-based session management.
+ **User Management**: Readers and Authors can sign up, log in, update their profiles, and manage their account details.
+ **Book Management**: Authors can add, update, and remove books. Readers can view, search, and borrow books.
+ **Borrowing & Returning:** Readers can borrow up to 5 books and return them, updating the book stock accordingly.
+ **Session Management:** Implemented "Remember Me" functionality with JWT-based session management.
  
 # Features
   
 ## User Management
-  -Users can sign up as Readers or Authors.
-  -Readers can borrow books, and Authors can manage books they have written.
-  -The "Remember Me" functionality keeps users logged in for 15 days using session tokens.
+  **Users can sign up as Readers or Authors.**
+  **Readers can borrow books, and Authors can manage books they have written.**
+  **The "Remember Me" functionality keeps users logged in for 15 days using session tokens.**
   
 ## CRUD Operations for Books
   -Authors can create, read, update, and delete books.
