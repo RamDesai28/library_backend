@@ -1,5 +1,6 @@
 # Library Management System Backend
-This project provides the backend functionality for a Library Management System. It allows users (Readers and Authors) to manage books, borrow and return books, and perform user management tasks like signup, login, and account updates.
+  This project provides the backend functionality for a Library Management System. It allows users (Readers and Authors) to manage books, borrow 
+  and return books, and perform user management tasks like signup, login, and account updates.
 
 ## Project Overview
 The Library Management System Backend is built using Node.js and Express.js with MongoDB as the database. The system allows:
@@ -9,7 +10,7 @@ The Library Management System Backend is built using Node.js and Express.js with
  -Borrowing & Returning: Readers can borrow up to 5 books and return them, updating the book stock accordingly.
  -Session Management: Implemented "Remember Me" functionality with JWT-based session management.
  
-## Features
+# Features
   
 ## User Management
   -Users can sign up as Readers or Authors.
@@ -40,7 +41,7 @@ The Library Management System Backend is built using Node.js and Express.js with
     -Node.js and npm installed.
     -A MongoDB account or local instance for database storage.
     
-## API Endpoints
+# API Endpoints
  ## User Routes
    -POST /users/signup: Register a new user (Reader or Author).
    -POST /users/login: Authenticate user and return a session token.
@@ -57,7 +58,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    -POST /reader/books/return: Return a borrowed book (Readers only).
    -GET /reader/books/:id: View all borrowed books by a Reader.
    
-## Example Usage
+# Example Usage
  ## Author Use Case:
    -Sign up as an author.
    -Login to the system.
