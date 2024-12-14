@@ -44,8 +44,9 @@ The Library Management System Backend is built using Node.js and Express.js with
 # API Endpoints
  ## User Routes
    - **POST /users/signup:** Register a new user (Reader or Author).
-   -  ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/64904d35cd1fb65bf8f43aff06bded5d56a15708/Screenshot%202024-12-14%20181935.png)
+   -  ![Sign Up](https://github.com/RamDesai28/library_backend/blob/d3f0fb1da0c83f8b6c11c796b5c1388ab817d9c3/Screenshot%202024-12-14%20192720.png)
    - **POST /users/login:** Authenticate user and return a session token.
+   - ![Sign Up](https://github.com/RamDesai28/library_backend/blob/d3f0fb1da0c83f8b6c11c796b5c1388ab817d9c3/Screenshot%202024-12-14%20192720.png)
    - **PUT /users/update/:id:** Update user details (name, password).
    - **DELETE /users/delete/:id:** Delete a user account.
    - **GET /users/session/validate:** Validate the session token.
