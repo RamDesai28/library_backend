@@ -50,6 +50,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    - **PUT /users/update/:id:** Update user details (name, password).
    - ![Login](https://github.com/RamDesai28/library_backend/blob/0a50b765fbbdb877ceba1a3bb065210a3c6c4d1e/Screenshot%202024-12-14%20193007.png)
    - **DELETE /users/delete/:id:** Delete a user account.
+   - ![Login](![Login](https://github.com/RamDesai28/library_backend/blob/0a50b765fbbdb877ceba1a3bb065210a3c6c4d1e/Screenshot%202024-12-14%20193007.png))
    - **GET /users/session/validate:** Validate the session token.
    - 
    
