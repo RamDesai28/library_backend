@@ -57,7 +57,7 @@ The Library Management System Backend is built using Node.js and Express.js with
 ## Book Routes
    - **POST /books/create:** Add a new book (Authors only).
    - **GET /books:** Retrieve a list of all books or search by title, genre, or author.
-   - ![Book API Resp]()
+   - ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/f29b5686cecbd6c4ac9dc82ba74d41d16d8df1e3/Screenshot%202024-12-14%20200250.png)
    - **GET /books/author/:id:** Retrieve books by a specific author.
    - **PUT /books/update/:id:** Update book details (Authors only).
    - **DELETE /books/delete/:id:** Delete a book (Authors only).
