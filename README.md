@@ -18,8 +18,8 @@ The Library Management System Backend is built using Node.js and Express.js with
  - **The "Remember Me" functionality keeps users logged in for 15 days using session tokens.**
   
 ## CRUD Operations for Books
-  -Authors can create, read, update, and delete books.
-  -Readers can search for books by title, genre, or author and view all books in the library.
+  -  Authors can create, read, update, and delete books.
+  -  Readers can search for books by title, genre, or author and view all books in the library.
   
 ## Borrowing & Returning Books
   -Readers can borrow up to 5 books at a time.
