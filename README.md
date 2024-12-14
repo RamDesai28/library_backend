@@ -57,7 +57,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    - **POST /reader/books/borrow:** Borrow a book (Readers only).
    - **POST /reader/books/return:** Return a borrowed book (Readers only).
    - **GET /reader/books/:id:** View all borrowed books by a Reader.
-    ![Book API Resp](Screenshot 2024-12-14 181935.png)
+   - ![Book API Resp]([Screenshot 2024-12-14 181935.png](https://github.com/RamDesai28/library_backend/blob/e4ca39dcbaf65448656cca47eb279cea81c4bdc6/Screenshot%202024-12-14%20181935.png))
    
 # Example Usage
  ## Author Use Case:
