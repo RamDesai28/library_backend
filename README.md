@@ -48,6 +48,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    - **PUT /users/update/:id:** Update user details (name, password).
    - **DELETE /users/delete/:id:** Delete a user account.
    - **GET /users/session/validate:** Validate the session token.
+   - 
      ![Sign up](https://github.com/RamDesai28/library_backend/blob/e4ca39dcbaf65448656cca47eb279cea81c4bdc6/Screenshot%202024-12-14%20181935.pn)
    
 ## Book Routes
@@ -59,7 +60,7 @@ The Library Management System Backend is built using Node.js and Express.js with
    - **POST /reader/books/borrow:** Borrow a book (Readers only).
    - **POST /reader/books/return:** Return a borrowed book (Readers only).
    - **GET /reader/books/:id:** View all borrowed books by a Reader.
-    ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/e4ca39dcbaf65448656cca47eb279cea81c4bdc6/Screenshot%202024-12-14%20181935.pn)
+   -  ![Book API Resp](https://github.com/RamDesai28/library_backend/blob/64904d35cd1fb65bf8f43aff06bded5d56a15708/Screenshot%202024-12-14%20181935.png)
    
 # Example Usage
  ## Author Use Case:
